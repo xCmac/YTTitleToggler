@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "YT Title Toggler",
+  "description": "Toggle Youtube video titles",
+  "version": "1.0",
+  "content_scripts": [
+  {
+    "matches": ["*://*.youtube.com/*"],
+    "js": ["jquery-3.1.0.min.js", "yttoggler.js"],
+    "run_at": "document_end"
+  }],
+
+  "browser_action": {
+    "default_title": "YTToggler!"
+  }
+}
