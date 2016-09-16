@@ -2,7 +2,8 @@
   "manifest_version": 2,
 
   "name": "YT Title Toggler",
-  "description": "Toggle Youtube video titles",
+  "description": "Toggle visiblity of Youtube video titles",
+  "homepage_url": "https://github.com/xCmac/YTTitleToggler",
   "version": "1.0",
   "content_scripts": [
   {
