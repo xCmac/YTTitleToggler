@@ -65,8 +65,6 @@ h4 {
 
 .tgl-skewed + .tgl-btn {
   overflow: hidden;
-  -webkit-transform: skew(-10deg);
-          transform: skew(-10deg);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-transition: all .2s ease;
@@ -75,8 +73,6 @@ h4 {
   background: #888;
 }
 .tgl-skewed + .tgl-btn:after, .tgl-skewed + .tgl-btn:before {
-  -webkit-transform: skew(10deg);
-          transform: skew(10deg);
   display: inline-block;
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
